@@ -19,9 +19,9 @@ body{
     background-color: var(--very-dark-blue);
     border: 1px solid:red;
     height: 100svh;
-    display:flex;
+    display:flex ;
     justify-content: center;
-    align-items:center;
+    align-items:center ;
 }
 
 .card{
@@ -42,6 +42,7 @@ body{
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
+    margin-bottom: 24px;
 }
 
 .estrela{
@@ -53,4 +54,29 @@ body{
     align-items: center;
     border-radius: 50%;  
     margin-bottom: 30px;         
+}
+
+
+
+.notas{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+.notas button {
+     width: 51px;
+     height:51px;
+     font-size: 16px;
+     font-weight: 788;
+     line-height: 24px;
+     border-radius: 50%;
+     border: none;
+     color:var(--medium-grey);
+     background-color: var(--dark-blue);
+}
+
+.notas button:hover{
+    
 }
